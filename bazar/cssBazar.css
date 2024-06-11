@@ -49,6 +49,9 @@ button
 
 main
 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 15px 0px 15px 0px;
     background-image: url("https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D");
     background-repeat: no-repeat;
@@ -61,19 +64,27 @@ div.produtos
     color: white;
     box-shadow: inset 0px 0px 10px black;
     font-size: 13px;
-    margin: auto;
-    width: 100px;
+    margin: 10px 10px 10px 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 10px;
     border: 2px solid grey;
+    transition: 0.2s;
+
 }
 
 img.imagemProdutos
 {
-    width: 50px;
+    width: 200px;
+    transition: 0.2s;
+    cursor: pointer ;
+}
+
+div.produtos:hover
+{
+    transform: scale(1.1);
 }
 
 

@@ -13,7 +13,7 @@ header
     background-color: rgb(58, 58, 58);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 header>button
@@ -23,7 +23,6 @@ header>button
 
 button#principallogo
 {
-    width: 400px;
     font-size: 20px;
     background-color: transparent;
     color: white;
@@ -34,7 +33,6 @@ button.menu
 {
     background-color: transparent;
     padding: 10px;
-    width: 200px;
     border: none;
     color: white;
     transition: 0.2s;
@@ -47,6 +45,13 @@ button.menu:hover
 button
 {
     cursor: pointer;
+}
+
+main
+{
+    background-image: url("https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 

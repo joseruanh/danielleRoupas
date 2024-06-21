@@ -123,3 +123,22 @@ footer>p
     font-size: 13px;
     color: white;
 }
+
+
+
+
+
+
+
+a
+{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+p.identificacao
+{
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.342);
+}

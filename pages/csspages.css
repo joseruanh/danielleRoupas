@@ -1,0 +1,32 @@
+img.imagemProdutosPages
+{
+    width: 300px;
+    transition: 0.2s;
+    border: 3px solid grey;
+}
+
+div.produtos1
+{
+    margin: auto;
+    text-align: center;
+}
+
+img.imagemProdutosPages:hover
+{
+    transform: scale(1.2);
+}
+
+button.voltar
+{
+    background-color: transparent;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+button.voltar:hover
+{
+    background-color: grey;
+    color: white;
+}

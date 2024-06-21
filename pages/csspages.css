@@ -3,18 +3,25 @@ img.imagemProdutosPages
     width: 300px;
     transition: 0.2s;
     border: 3px solid grey;
-}
-
-div.produtos1
-{
-    margin: auto;
-    text-align: center;
+    margin: 2px;
 }
 
 img.imagemProdutosPages:hover
 {
     transform: scale(1.2);
 }
+
+div.produtos1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
 
 button.voltar
 {
@@ -29,4 +36,9 @@ button.voltar:hover
 {
     background-color: grey;
     color: white;
+}
+
+div.preco
+{
+    text-align: center;
 }

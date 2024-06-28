@@ -77,11 +77,7 @@ div.produtos
     padding: 10px;
     border: 2px solid grey;
     transition: 0.2s;
-}
-
-div#alongar2, div#alongar7
-{
-    height: 397px;
+    height: 405px;
 }
 
 img.imagemProdutos

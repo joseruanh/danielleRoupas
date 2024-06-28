@@ -4,11 +4,12 @@ img.imagemProdutosPages
     transition: 0.2s;
     border: 3px solid grey;
     margin: 2px;
+    cursor: pointer;
 }
 
 img.imagemProdutosPages:hover
 {
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 
 div.produtos1

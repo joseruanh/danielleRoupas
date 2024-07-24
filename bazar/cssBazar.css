@@ -142,3 +142,20 @@ p.identificacao
     font-size: 11px;
     color: rgba(255, 255, 255, 0.342);
 }
+
+
+/** Responsividade **/
+
+@media (max-width: 800px)
+{
+
+    img.imagemProdutos
+        {
+            width: 100px;
+        }
+    div.produtos
+        {
+            height: 305px;
+        }
+
+}

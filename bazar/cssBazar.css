@@ -144,6 +144,10 @@ p.identificacao
 }
 
 
+
+
+
+
 /** Responsividade **/
 
 @media (max-width: 800px)
@@ -156,6 +160,13 @@ p.identificacao
     div.produtos
         {
             height: 305px;
+            font-size: 9px;
+        }
+
+    button.produtoPreco
+        {
+            width: 70px;
+            font-size: 10px;
         }
 
 }
